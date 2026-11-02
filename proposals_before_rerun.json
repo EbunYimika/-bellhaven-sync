@@ -1,0 +1,369 @@
+[
+  {
+    "id": "P01",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Amberly Manor",
+    "changes": {
+      "name": "Amberly Manor",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "4390 Darrow Rd",
+      "billing_city": "Hudson",
+      "billing_state": "OH",
+      "billing_zip": "44236",
+      "care_type": "Assisted Living",
+      "phone": "(330) 228-4392",
+      "note": "Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/amberly-manor); care offerings: Assisted Living."
+    },
+    "evidence": "No CRM account at 4390 Darrow Rd, Hudson matches this website location by name or Bellhaven parent. Other accounts at this address/city, if any, are left untouched because they cannot be confidently identified as this facility.",
+    "status": "pending"
+  },
+  {
+    "id": "P02",
+    "kind": "reparent",
+    "account_id": "001LGFPBJY4N9MB6KL",
+    "website_name": "Bellhaven Crossings of Lima",
+    "changes": {
+      "parent_id": "0015QAPLGS3FVYEEEM"
+    },
+    "evidence": "Parent is Harborview Care Group (Parent Account), website shows it as a Bellhaven community; revenue=$47000, AR=$0, so direct re-parenting is allowed (AR is zero).",
+    "status": "pending"
+  },
+  {
+    "id": "P03",
+    "kind": "mark_duplicate",
+    "account_id": "00159PL81N38KM4FHM",
+    "website_name": "Bellhaven Gardens of Monroe",
+    "changes": {
+      "status": "Inactive",
+      "duplicate_of_account": "001U1750VLVJAGG1S5",
+      "note": "Duplicate of Bellhaven Gardens of Monroe (001U1750VLVJAGG1S5) at the same address. Website location is Bellhaven Gardens of Monroe."
+    },
+    "evidence": "Same normalised street address as the website location and as the surviving account Bellhaven Gardens of Monroe, but a different name/parent (Monroe Gardens Care Center, Harborview Care Group (Parent Account)).",
+    "status": "pending"
+  },
+  {
+    "id": "P04",
+    "kind": "mark_duplicate",
+    "account_id": "0011AB44D05WLA9HTX",
+    "website_name": "Bellhaven Gardens of Monroe",
+    "changes": {
+      "status": "Inactive",
+      "duplicate_of_account": "001U1750VLVJAGG1S5",
+      "note": "Duplicate of Bellhaven Gardens of Monroe (001U1750VLVJAGG1S5) at the same address. Website location is Bellhaven Gardens of Monroe."
+    },
+    "evidence": "Same normalised street address as the website location and as the surviving account Bellhaven Gardens of Monroe, but a different name/parent (Cedar Trail of Monroe, Cedar Trail Communities (Parent Account)).",
+    "status": "pending"
+  },
+  {
+    "id": "P05",
+    "kind": "reparent",
+    "account_id": "001UKEFGADQ8YCZ4YM",
+    "website_name": "Bellhaven Meadows of Findlay",
+    "changes": {
+      "parent_id": "0015QAPLGS3FVYEEEM"
+    },
+    "evidence": "Parent is none, website shows it as a Bellhaven community; revenue=$22000, AR=$0, so direct re-parenting is allowed (AR is zero).",
+    "status": "pending"
+  },
+  {
+    "id": "P06",
+    "kind": "update_fields",
+    "account_id": "001TZCSTBZFM6K5BGN",
+    "website_name": "Bellhaven Rehabilitation & Nursing of Grove City",
+    "changes": {
+      "name": "Bellhaven Rehabilitation & Nursing of Grove City"
+    },
+    "evidence": "CRM name 'Bellhaven Rehab and Nursing of Grove City' differs from website name 'Bellhaven Rehabilitation & Nursing of Grove City' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P07",
+    "kind": "mark_duplicate",
+    "account_id": "001BLYF02K97SZLZHH",
+    "website_name": "Bellhaven Shores of Erie",
+    "changes": {
+      "status": "Inactive",
+      "duplicate_of_account": "001CVBBCSDM7YHN220",
+      "note": "Duplicate of Bellhaven Shores of Erie (001CVBBCSDM7YHN220) at the same address. Website location is Bellhaven Shores of Erie."
+    },
+    "evidence": "Same normalised street address as the website location and as the surviving account Bellhaven Shores of Erie, but a different name/parent (Harborview Shores of Erie, Harborview Care Group (Parent Account)).",
+    "status": "pending"
+  },
+  {
+    "id": "P08",
+    "kind": "update_fields",
+    "account_id": "0017MN2JYAJBDS8WQZ",
+    "website_name": "Bellhaven Willow Creek",
+    "changes": {
+      "name": "Bellhaven Willow Creek"
+    },
+    "evidence": "CRM name 'Sunny Acres Retirement Home' differs from website name 'Bellhaven Willow Creek' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P09",
+    "kind": "update_fields",
+    "account_id": "00191H7JR16471SZ34",
+    "website_name": "Bellhaven at Sycamore Ridge",
+    "changes": {
+      "name": "Bellhaven at Sycamore Ridge"
+    },
+    "evidence": "CRM name 'Bellhaven of Sycamore Ridge' differs from website name 'Bellhaven at Sycamore Ridge' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P10",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven at Union Square",
+    "changes": {
+      "name": "Bellhaven at Union Square",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "118 Union Square Dr",
+      "billing_city": "New Albany",
+      "billing_state": "OH",
+      "billing_zip": "43054",
+      "care_type": "Assisted Living",
+      "phone": "(330) 519-9639",
+      "note": "Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-at-union-square); care offerings: Assisted Living."
+    },
+    "evidence": "No CRM account at 118 Union Square Dr, New Albany matches this website location by name or Bellhaven parent. Other accounts at this address/city, if any, are left untouched because they cannot be confidently identified as this facility.",
+    "status": "pending"
+  },
+  {
+    "id": "P11",
+    "kind": "update_fields",
+    "account_id": "001NXP9X46CWEPSLSV",
+    "website_name": "Bellhaven of Ashtabula",
+    "changes": {
+      "billing_street": "3156 W Prospect Rd"
+    },
+    "evidence": "CRM street is 'PO Box 517', website street is '3156 W Prospect Rd'.",
+    "status": "pending"
+  },
+  {
+    "id": "P12",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven of Batavia",
+    "changes": {
+      "name": "Bellhaven of Batavia",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "2000 Hospital Dr",
+      "billing_city": "Batavia",
+      "billing_state": "OH",
+      "billing_zip": "45103",
+      "care_type": "Skilled Nursing",
+      "phone": "(231) 698-3092",
+      "note": "Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-batavia); care offerings: Short-Term Rehabilitation & Nursing."
+    },
+    "evidence": "No CRM account at 2000 Hospital Dr, Batavia matches this website location by name or Bellhaven parent. Other accounts at this address/city, if any, are left untouched because they cannot be confidently identified as this facility.",
+    "status": "pending"
+  },
+  {
+    "id": "P13",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven of Carlisle",
+    "changes": {
+      "name": "Bellhaven of Carlisle",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "640 Walnut Bottom Rd",
+      "billing_city": "Carlisle",
+      "billing_state": "PA",
+      "billing_zip": "17015",
+      "care_type": "Skilled Nursing",
+      "phone": "(260) 386-7765",
+      "note": "Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-carlisle); care offerings: Short-Term Rehabilitation & Nursing."
+    },
+    "evidence": "No CRM account at 640 Walnut Bottom Rd, Carlisle matches this website location by name or Bellhaven parent. Other accounts at this address/city, if any, are left untouched because they cannot be confidently identified as this facility.",
+    "status": "pending"
+  },
+  {
+    "id": "P14",
+    "kind": "update_fields",
+    "account_id": "001RJU1X4NBWC1Q0G7",
+    "website_name": "Bellhaven of Chagrin Falls",
+    "changes": {
+      "name": "Bellhaven of Chagrin Falls"
+    },
+    "evidence": "CRM name 'Riverbend Manor Care Center' differs from website name 'Bellhaven of Chagrin Falls' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P15",
+    "kind": "update_fields",
+    "account_id": "0013NUZQHQUEZ8DXEG",
+    "website_name": "Bellhaven of Chesterton",
+    "changes": {
+      "name": "Bellhaven of Chesterton"
+    },
+    "evidence": "CRM name 'Chesterton Senior Commons' differs from website name 'Bellhaven of Chesterton' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P16",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven of Kettering",
+    "changes": {
+      "name": "Bellhaven of Kettering",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "3313 Wilmington Pike",
+      "billing_city": "Kettering",
+      "billing_state": "OH",
+      "billing_zip": "45429",
+      "care_type": "Skilled Nursing",
+      "phone": "(231) 269-5449",
+      "note": "Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-kettering); care offerings: Short-Term Rehabilitation & Nursing."
+    },
+    "evidence": "No CRM account at 3313 Wilmington Pike, Kettering matches this website location by name or Bellhaven parent. Other accounts at this address/city, if any, are left untouched because they cannot be confidently identified as this facility.",
+    "status": "pending"
+  },
+  {
+    "id": "P17",
+    "kind": "chow_link_old",
+    "account_id": "001A34WFSUYHCRBLFT",
+    "website_name": "Bellhaven of Marietta",
+    "changes": {
+      "chow_current_account": "__NEW_ACCOUNT_ID__"
+    },
+    "evidence": "Parent must change from Cedar Trail Communities (Parent Account) to Bellhaven, but lifetime_revenue=$51250 and outstanding_ar=$3800 (both > 0), so billing SOP forbids re-parenting. The old account is preserved and linked to the new account created below.",
+    "status": "pending"
+  },
+  {
+    "id": "P18",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven of Marietta",
+    "changes": {
+      "name": "Bellhaven of Marietta",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "805 Colegate Dr",
+      "billing_city": "Marietta",
+      "billing_state": "OH",
+      "billing_zip": "45750",
+      "care_type": "Skilled Nursing",
+      "phone": "(419) 353-5019",
+      "note": "CHOW replacement for Bellhaven of Marietta (001A34WFSUYHCRBLFT), whose parent was Cedar Trail Communities (Parent Account). Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-marietta)."
+    },
+    "evidence": "CHOW replacement for Bellhaven of Marietta: revenue and AR history stay on the old account, so a new Bellhaven account is created instead of re-parenting.",
+    "status": "pending"
+  },
+  {
+    "id": "P19",
+    "kind": "mark_duplicate",
+    "account_id": "001QU150PM4Z15UA71",
+    "website_name": "Bellhaven of Owosso",
+    "changes": {
+      "status": "Inactive",
+      "duplicate_of_account": "001EGU7BMJ942ZTRE6",
+      "note": "Duplicate of Bellhaven of Owosso (001EGU7BMJ942ZTRE6) at the same address. Website location is Bellhaven of Owosso."
+    },
+    "evidence": "Same normalised street address as the website location and as the surviving account Bellhaven of Owosso, but a different name/parent (Bellhaven of Owosso, Bellhaven Senior Living (Parent Account)).",
+    "status": "pending"
+  },
+  {
+    "id": "P20",
+    "kind": "mark_duplicate",
+    "account_id": "001JD2MWRA74LTSN24",
+    "website_name": "Bellhaven of Port Clinton",
+    "changes": {
+      "status": "Inactive",
+      "duplicate_of_account": "001UELXDAKFRKB8932",
+      "note": "Duplicate of Bellhaven of Port Clinton (001UELXDAKFRKB8932) at the same address. Website location is Bellhaven of Port Clinton."
+    },
+    "evidence": "Same normalised street address as the website location and as the surviving account Bellhaven of Port Clinton, but a different name/parent (Harborview Nursing & Rehab of Port Clinton, Harborview Care Group (Parent Account)).",
+    "status": "pending"
+  },
+  {
+    "id": "P21",
+    "kind": "update_fields",
+    "account_id": "001CF3LDWVRGL09P4F",
+    "website_name": "Bellhaven of Portsmouth",
+    "changes": {
+      "billing_zip": "45662"
+    },
+    "evidence": "CRM zip is 45626, website zip is 45662 (same street and city).",
+    "status": "pending"
+  },
+  {
+    "id": "P22",
+    "kind": "chow_link_old",
+    "account_id": "001U6RW32TY0WSXZZB",
+    "website_name": "Bellhaven of Tiffin",
+    "changes": {
+      "chow_current_account": "__NEW_ACCOUNT_ID__"
+    },
+    "evidence": "Parent must change from Cedar Trail Communities (Parent Account) to Bellhaven, but lifetime_revenue=$84000 and outstanding_ar=$12400 (both > 0), so billing SOP forbids re-parenting. The old account is preserved and linked to the new account created below.",
+    "status": "pending"
+  },
+  {
+    "id": "P23",
+    "kind": "create_account",
+    "account_id": null,
+    "website_name": "Bellhaven of Tiffin",
+    "changes": {
+      "name": "Bellhaven of Tiffin",
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "billing_street": "45 St Lawrence Dr",
+      "billing_city": "Tiffin",
+      "billing_state": "OH",
+      "billing_zip": "44883",
+      "care_type": "Skilled Nursing",
+      "phone": "(614) 829-9278",
+      "note": "CHOW replacement for Bellhaven of Tiffin (001U6RW32TY0WSXZZB), whose parent was Cedar Trail Communities (Parent Account). Created from Bellhaven website (https://analyst-assessment-production.up.railway.app/communities/bellhaven-of-tiffin)."
+    },
+    "evidence": "CHOW replacement for Bellhaven of Tiffin: revenue and AR history stay on the old account, so a new Bellhaven account is created instead of re-parenting.",
+    "status": "pending"
+  },
+  {
+    "id": "P24",
+    "kind": "reparent",
+    "account_id": "001H1JMVZWP46D5VUF",
+    "website_name": "Bellhaven of Zanesville",
+    "changes": {
+      "parent_id": "0015QAPLGS3FVYEEEM",
+      "name": "Bellhaven of Zanesville"
+    },
+    "evidence": "Parent is Cedar Trail Communities (Parent Account), website shows it as a Bellhaven community; revenue=$0, AR=$0, so direct re-parenting is allowed (AR is zero). CRM name 'Cedar Trail of Zanesville' differs from website name 'Bellhaven of Zanesville' at the same address.",
+    "status": "pending"
+  },
+  {
+    "id": "P25",
+    "kind": "mark_inactive_not_on_website",
+    "account_id": "00116ETS45BL7DTQP7",
+    "website_name": null,
+    "changes": {
+      "status": "Inactive",
+      "note": "Not on the current Bellhaven website (no website community in Alliance, OH, and no community at this address). Verify closure/sale before relying on this record."
+    },
+    "evidence": "Bellhaven-parent account with no matching website community: Bellhaven Care Center of Alliance, 1785 Freshley Ave, Alliance. Lifetime revenue $0, AR $0 are preserved on the record; only its status changes.",
+    "status": "pending"
+  },
+  {
+    "id": "P26",
+    "kind": "mark_inactive_not_on_website",
+    "account_id": "0016PVXH4B25HWR7QE",
+    "website_name": null,
+    "changes": {
+      "status": "Inactive",
+      "note": "Not on the current Bellhaven website (no website community in Coldwater, MI, and no community at this address). Verify closure/sale before relying on this record."
+    },
+    "evidence": "Bellhaven-parent account with no matching website community: Bellhaven of Coldwater, 90 N Michigan Ave, Coldwater. Lifetime revenue $0, AR $0 are preserved on the record; only its status changes.",
+    "status": "pending"
+  },
+  {
+    "id": "P27",
+    "kind": "mark_inactive_not_on_website",
+    "account_id": "001SXSF4ELF0Z2LGDM",
+    "website_name": null,
+    "changes": {
+      "status": "Inactive",
+      "note": "Not on the current Bellhaven website (no website community in Sandusky, OH, and no community at this address). Verify closure/sale before relying on this record."
+    },
+    "evidence": "Bellhaven-parent account with no matching website community: Bellhaven of Sandusky, 2715 Columbus Ave, Sandusky. Lifetime revenue $130000, AR $5200 are preserved on the record; only its status changes.",
+    "status": "pending"
+  }
+]
